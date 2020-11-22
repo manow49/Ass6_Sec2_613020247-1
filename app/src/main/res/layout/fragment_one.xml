@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".OneFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="260dp"
+        android:layout_height="320dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/pleum" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="241dp"
+        android:layout_height="78dp"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:text="  Tanawat Mangkalakiri \n       NO:613020891-4"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
